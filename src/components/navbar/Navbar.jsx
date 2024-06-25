@@ -16,9 +16,9 @@ const Navbar = () => {
       <div className={styles.logo}>SparkBlogs</div>
       <div className={styles.links}>
         <ThemeToggle/>
-        <Link href="/">Homepage</Link>
-        <Link href="/">Contact</Link>
-        <Link href="/">About</Link>
+        <Link className={styles.links} href="/">Homepage</Link>
+        <Link className={styles.links} href="/">Contact</Link>
+        <Link className={styles.links} href="/">About</Link>
         <AuthLinks/>
       </div>
     </div>
